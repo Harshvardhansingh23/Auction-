@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function redirectToHome(event) {
+            event.preventDefault(); // Prevent the form from submitting
+            window.location.href = "index.html"; // Redirect to home page
+        }
+    </script>
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: #1a1a1a;
+          margin: 0;
+          padding: 0;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .card {
+          background-color: #d5d4d4;
+          border-radius: 8px;
+          padding: 30px;
+          width: 300px;
+        }
+        h2 {
+          color: #1a50a0;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        form {
+          display: flex;
+          flex-direction: column;
+        }
+        input {
+          margin-bottom: 15px;
+          padding: 10px;
+          border-radius: 5px;
+          border: 1px solid black;
+          background-color: #d8d8d8;
+        }
+        button {
+          background-color: #1b81da;
+          color: #fff;
+          padding: 10px;
+          border-radius: 8px;
+        }
+        button:hover {
+          background-color: #0741ac;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+  
+        nav a {
+            float: left;
+            display: flex;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            justify-content:space-between;
+            width:250px;
+        }
+  
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+      </style>
+</head>
+<body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    <body>
+        <header style="color:#0741ac"> <h1><center> Welcome to <br>Bidding's Paradise</h1>
+         <div class="card">
+           <h2>Login</h2>
+           <form>
+             <input type="email" name="" id="" placeholder="Email" />
+             <input type="password" name="" id="" placeholder="Password" />
+             <button type="submit">Login</button> 
+           </form>
+         </div>
+         </header>
+    <footer>
+        <p style color="#fff">&copy;Bidder's Pardise</p>
+    </footer>
+</body>
+</html>
